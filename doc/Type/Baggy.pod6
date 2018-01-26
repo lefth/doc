@@ -95,8 +95,8 @@ of the invocant weighted by their values, as if the keys were replicated
 the number of times indicated by the corresponding value and then list
 pick used. The underlying metaphor for picking is that you're pulling
 colored marbles out a bag. (For "picking with replacement" see
-L<roll|#method roll> instead). If C<*> is passed as C<$count>, or C<$count> is
-greater than or equal to the L<total|#method total> of the invocant, then
+L<roll|/type/Baggy#method_roll> instead). If C<*> is passed as C<$count>, or C<$count> is
+greater than or equal to the L<total|/type/Baggy#method_total> of the invocant, then
 C<total> elements from the invocant are returned in a random sequence.
 
 Note that each C<pick> invocation maintains its own private state and has
